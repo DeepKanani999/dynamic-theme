@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--favicon-->
+    <link
+      rel="icon"
+      href="assets/images/favicon-32x32.webp"
+      type="image/webp"
+    />
+
+    <!-- CSS files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <!-- Plugins -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/plugins/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/plugins/slick/slick-theme.css"
+    />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/dark-theme.css" rel="stylesheet" />
+
+    <title>Shopingo - eCommerce HTML Template</title>
+  </head>
+
+  <body>
+    <!--page loader-->
+    <div class="loader-wrapper">
+      <div
+        class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle"
+      >
+        <div class="spinner-border text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <!--end loader-->
+
+    <!--start top header-->
+    <header class="top-header">
+      <nav
+        class="navbar navbar-expand-xl justify-content-between align-items-center w-100 container gap-3"
+      >
+        <a
+          class="mobile-menu-btn d-inline d-xl-none"
+          href="javascript:;"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+        >
+          <i class="bi bi-list"></i>
+        </a>
+        <a href="index.html">
+          <img
+            src="assets/images/logo/plixon-Logo.webp"
+            width="160"
+            height="mx-auto"
+            alt="Logo"
+          />
+        </a>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+        >
+          <div class="offcanvas-header">
+            <div class="offcanvas-logo">
+              <img
+                src="assets/images/logo/plixon-Logo.webp"
+                width="160"
+                height="mx-auto"
+                class="logo-img"
+                alt=""
+              />
+            </div>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body primary-menu">
+            <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="navbar-nav secondary-menu flex-row">
+          <li class="nav-item">
+            <a class="nav-link" href="wishlist.html"
+              ><i class="bi bi-suit-heart"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--end top header-->
+
+    <!--start page content-->
+    <div class="page-content">
+      <!--start breadcrumb-->
+      <div class="py-4 border-bottom">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+              <li class="breadcrumb-item"><a href="javascript:;">Pages</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Contact Us
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!--end breadcrumb-->
+
+      <!--start product details-->
+      <section class="section-padding">
+        <div class="container">
+          <div class="separator mb-3">
+            <div class="line"></div>
+            <h3 class="mb-0 h3 fw-bold">Find Us Map</h3>
+            <div class="line"></div>
+          </div>
+
+          <div class="border p-3">
+            <iframe
+              class="w-100"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59743.39192138562!2d70.7833!3d22.3039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca1d77d8c3a3%3A0xf833e6b1fd8cfd9f!2sRajkot%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1713424000000!5m2!1sen!2sin"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="separator my-3">
+            <div class="line"></div>
+            <h3 class="mb-0 h3 fw-bold">Why Choose Us</h3>
+            <div class="line"></div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-xl-8">
+              <div class="p-4 border">
+                <form>
+                  <div class="form-body">
+                    <h4 class="mb-0 fw-bold">Drop Us a Line</h4>
+                    <div class="my-3 border-bottom"></div>
+                    <div class="mb-3">
+                      <label class="form-label">Enter Your Name</label>
+                      <input type="text" class="form-control rounded-0" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Enter Email</label>
+                      <input type="text" class="form-control rounded-0" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Phone Number</label>
+                      <input type="text" class="form-control rounded-0" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Message</label>
+                      <textarea
+                        class="form-control rounded-0"
+                        rows="4"
+                        cols="4"
+                      ></textarea>
+                    </div>
+                    <div class="mb-0">
+                      <a href="thank-you.html" class="btn btn-dark btn-ecomm"
+                        >Send Message</a
+                      >
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="p-3 border">
+                <div class="address mb-3">
+                  <h5 class="mb-0 fw-bold">Address</h5>
+                  <p class="mb-0 font-12">
+                    M-167, 4, Gujarat Housing Board Society, Bh. Angle Madras
+                    Cafe Akshar Marg, Near Amin Marg, Rajkot - 360001
+                  </p>
+                </div>
+                <hr />
+                <div class="phone mb-3">
+                  <h5 class="mb-0 fw-bold">Phone</h5>
+                  <p class="mb-0 font-13">Toll Free - 77790 96777</p>
+                  <p class="mb-0 font-13">Mobile : +91-98984 29296</p>
+                </div>
+                <hr />
+                <div class="email mb-3">
+                  <h5 class="mb-0 fw-bold">Email</h5>
+                  <p class="mb-0 font-13">www.plixon.in</p>
+                </div>
+                <hr />
+                <div class="working-days mb-0">
+                  <h5 class="mb-0 fw-bold">Working Days</h5>
+                  <p class="mb-0 font-13">Mon - SAT / 10:30 AM - 9:30 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--start product details-->
+    </div>
+    <!--end page content-->
+
+    <!--start footer-->
+    <section class="footer-section bg-section-2 section-padding">
+      <div class="container">
+        <div class="row g-4">
+          <!-- About Us - 75% width on large screens -->
+          <div class="col-12 col-lg-9">
+            <div class="footer-widget-6">
+              <img
+                src="assets/images/logo/plixon-Logo.webp"
+                class="logo-img mb-3"
+                alt="Plixon Logo"
+              />
+              <h5 class="mb-3 fw-bold">About Us</h5>
+              <p class="mb-2">
+                At Plixon, we bring to life the kind of tech that we, as geeks,
+                tech enthusiasts and entertainment buffs, have always dreamed
+                about. An Indian brand, offering a full range of LED, QLED,
+                Smart, and Google TVs. We are on a mission to craft viewing
+                experiences, making connections that spark joy and challenge
+                convention. We are Plixon: Smart way to View On.
+              </p>
+              <!-- <a class="link-dark" href="javascript:;">Read More</a> -->
+            </div>
+          </div>
+
+          <!-- Follow Us - 25% width on large screens -->
+          <div class="col-12 col-lg-3">
+            <div class="footer-widget-9">
+              <h5 class="mb-3 fw-bold">Follow Us</h5>
+              <div class="social-link d-flex align-items-center gap-2">
+                <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+                <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+                <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+                <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+                <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+              </div>
+              <div class="mb-3 mt-3">
+                <h5 class="mb-0 fw-bold">Support</h5>
+                <p class="mb-0 text-muted">www.plixon.in</p>
+              </div>
+              <div>
+                <h5 class="mb-0 fw-bold">Toll Free</h5>
+                <p class="mb-0 text-muted">+91 98984 29296</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end footer-->
+
+    <footer
+      class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0"
+    >
+      <p class="mb-0 text-muted">
+        © 2025. www.plixon.in | All rights reserved.
+      </p>
+    </footer>
+
+    <!--Start Back To Top Button-->
+    <a href="javaScript:;" class="back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+    <!--End Back To Top Button-->
+
+    <!-- JavaScript files -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/loader.js"></script>
+  </body>
+</html>
